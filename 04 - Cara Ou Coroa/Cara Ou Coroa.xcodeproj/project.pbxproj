@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2982BE6123C36AEC0036A78B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982BE6023C36AEC0036A78B /* AppDelegate.swift */; };
+		2982BE6323C36AEC0036A78B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982BE6223C36AEC0036A78B /* SceneDelegate.swift */; };
+		2982BE6523C36AEC0036A78B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982BE6423C36AEC0036A78B /* ViewController.swift */; };
+		2982BE6823C36AEC0036A78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2982BE6623C36AEC0036A78B /* Main.storyboard */; };
+		2982BE6A23C36AEF0036A78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2982BE6923C36AEF0036A78B /* Assets.xcassets */; };
+		2982BE6D23C36AEF0036A78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2982BE6B23C36AEF0036A78B /* LaunchScreen.storyboard */; };
+		2982BE7823C36AEF0036A78B /* Cara_Ou_CoroaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982BE7723C36AEF0036A78B /* Cara_Ou_CoroaTests.swift */; };
+		2982BE8323C36AEF0036A78B /* Cara_Ou_CoroaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982BE8223C36AEF0036A78B /* Cara_Ou_CoroaUITests.swift */; };
+		2982BE9123C36D5D0036A78B /* CaraouCoroaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982BE9023C36D5D0036A78B /* CaraouCoroaViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2982BE7423C36AEF0036A78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2982BE5523C36AEC0036A78B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2982BE5C23C36AEC0036A78B;
+			remoteInfo = "Cara Ou Coroa";
+		};
+		2982BE7F23C36AEF0036A78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2982BE5523C36AEC0036A78B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2982BE5C23C36AEC0036A78B;
+			remoteInfo = "Cara Ou Coroa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2982BE5D23C36AEC0036A78B /* Cara Ou Coroa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cara Ou Coroa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2982BE6023C36AEC0036A78B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2982BE6223C36AEC0036A78B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2982BE6423C36AEC0036A78B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2982BE6723C36AEC0036A78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2982BE6923C36AEF0036A78B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2982BE6C23C36AEF0036A78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2982BE6E23C36AEF0036A78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2982BE7323C36AEF0036A78B /* Cara Ou CoroaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cara Ou CoroaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2982BE7723C36AEF0036A78B /* Cara_Ou_CoroaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cara_Ou_CoroaTests.swift; sourceTree = "<group>"; };
+		2982BE7923C36AEF0036A78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2982BE7E23C36AEF0036A78B /* Cara Ou CoroaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cara Ou CoroaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2982BE8223C36AEF0036A78B /* Cara_Ou_CoroaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cara_Ou_CoroaUITests.swift; sourceTree = "<group>"; };
+		2982BE8423C36AEF0036A78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2982BE9023C36D5D0036A78B /* CaraouCoroaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaraouCoroaViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2982BE5A23C36AEC0036A78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2982BE7023C36AEF0036A78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2982BE7B23C36AEF0036A78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2982BE5423C36AEC0036A78B = {
+			isa = PBXGroup;
+			children = (
+				2982BE5F23C36AEC0036A78B /* Cara Ou Coroa */,
+				2982BE7623C36AEF0036A78B /* Cara Ou CoroaTests */,
+				2982BE8123C36AEF0036A78B /* Cara Ou CoroaUITests */,
+				2982BE5E23C36AEC0036A78B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2982BE5E23C36AEC0036A78B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2982BE5D23C36AEC0036A78B /* Cara Ou Coroa.app */,
+				2982BE7323C36AEF0036A78B /* Cara Ou CoroaTests.xctest */,
+				2982BE7E23C36AEF0036A78B /* Cara Ou CoroaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2982BE5F23C36AEC0036A78B /* Cara Ou Coroa */ = {
+			isa = PBXGroup;
+			children = (
+				2982BE6023C36AEC0036A78B /* AppDelegate.swift */,
+				2982BE6223C36AEC0036A78B /* SceneDelegate.swift */,
+				2982BE9023C36D5D0036A78B /* CaraouCoroaViewController.swift */,
+				2982BE6423C36AEC0036A78B /* ViewController.swift */,
+				2982BE6623C36AEC0036A78B /* Main.storyboard */,
+				2982BE6923C36AEF0036A78B /* Assets.xcassets */,
+				2982BE6B23C36AEF0036A78B /* LaunchScreen.storyboard */,
+				2982BE6E23C36AEF0036A78B /* Info.plist */,
+			);
+			path = "Cara Ou Coroa";
+			sourceTree = "<group>";
+		};
+		2982BE7623C36AEF0036A78B /* Cara Ou CoroaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2982BE7723C36AEF0036A78B /* Cara_Ou_CoroaTests.swift */,
+				2982BE7923C36AEF0036A78B /* Info.plist */,
+			);
+			path = "Cara Ou CoroaTests";
+			sourceTree = "<group>";
+		};
+		2982BE8123C36AEF0036A78B /* Cara Ou CoroaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2982BE8223C36AEF0036A78B /* Cara_Ou_CoroaUITests.swift */,
+				2982BE8423C36AEF0036A78B /* Info.plist */,
+			);
+			path = "Cara Ou CoroaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2982BE5C23C36AEC0036A78B /* Cara Ou Coroa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2982BE8723C36AEF0036A78B /* Build configuration list for PBXNativeTarget "Cara Ou Coroa" */;
+			buildPhases = (
+				2982BE5923C36AEC0036A78B /* Sources */,
+				2982BE5A23C36AEC0036A78B /* Frameworks */,
+				2982BE5B23C36AEC0036A78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cara Ou Coroa";
+			productName = "Cara Ou Coroa";
+			productReference = 2982BE5D23C36AEC0036A78B /* Cara Ou Coroa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2982BE7223C36AEF0036A78B /* Cara Ou CoroaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2982BE8A23C36AEF0036A78B /* Build configuration list for PBXNativeTarget "Cara Ou CoroaTests" */;
+			buildPhases = (
+				2982BE6F23C36AEF0036A78B /* Sources */,
+				2982BE7023C36AEF0036A78B /* Frameworks */,
+				2982BE7123C36AEF0036A78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2982BE7523C36AEF0036A78B /* PBXTargetDependency */,
+			);
+			name = "Cara Ou CoroaTests";
+			productName = "Cara Ou CoroaTests";
+			productReference = 2982BE7323C36AEF0036A78B /* Cara Ou CoroaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2982BE7D23C36AEF0036A78B /* Cara Ou CoroaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2982BE8D23C36AEF0036A78B /* Build configuration list for PBXNativeTarget "Cara Ou CoroaUITests" */;
+			buildPhases = (
+				2982BE7A23C36AEF0036A78B /* Sources */,
+				2982BE7B23C36AEF0036A78B /* Frameworks */,
+				2982BE7C23C36AEF0036A78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2982BE8023C36AEF0036A78B /* PBXTargetDependency */,
+			);
+			name = "Cara Ou CoroaUITests";
+			productName = "Cara Ou CoroaUITests";
+			productReference = 2982BE7E23C36AEF0036A78B /* Cara Ou CoroaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2982BE5523C36AEC0036A78B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Brenner;
+				TargetAttributes = {
+					2982BE5C23C36AEC0036A78B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					2982BE7223C36AEF0036A78B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 2982BE5C23C36AEC0036A78B;
+					};
+					2982BE7D23C36AEF0036A78B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 2982BE5C23C36AEC0036A78B;
+					};
+				};
+			};
+			buildConfigurationList = 2982BE5823C36AEC0036A78B /* Build configuration list for PBXProject "Cara Ou Coroa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2982BE5423C36AEC0036A78B;
+			productRefGroup = 2982BE5E23C36AEC0036A78B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2982BE5C23C36AEC0036A78B /* Cara Ou Coroa */,
+				2982BE7223C36AEF0036A78B /* Cara Ou CoroaTests */,
+				2982BE7D23C36AEF0036A78B /* Cara Ou CoroaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2982BE5B23C36AEC0036A78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2982BE6D23C36AEF0036A78B /* LaunchScreen.storyboard in Resources */,
+				2982BE6A23C36AEF0036A78B /* Assets.xcassets in Resources */,
+				2982BE6823C36AEC0036A78B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2982BE7123C36AEF0036A78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2982BE7C23C36AEF0036A78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2982BE5923C36AEC0036A78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2982BE9123C36D5D0036A78B /* CaraouCoroaViewController.swift in Sources */,
+				2982BE6523C36AEC0036A78B /* ViewController.swift in Sources */,
+				2982BE6123C36AEC0036A78B /* AppDelegate.swift in Sources */,
+				2982BE6323C36AEC0036A78B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2982BE6F23C36AEF0036A78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2982BE7823C36AEF0036A78B /* Cara_Ou_CoroaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2982BE7A23C36AEF0036A78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2982BE8323C36AEF0036A78B /* Cara_Ou_CoroaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2982BE7523C36AEF0036A78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2982BE5C23C36AEC0036A78B /* Cara Ou Coroa */;
+			targetProxy = 2982BE7423C36AEF0036A78B /* PBXContainerItemProxy */;
+		};
+		2982BE8023C36AEF0036A78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2982BE5C23C36AEC0036A78B /* Cara Ou Coroa */;
+			targetProxy = 2982BE7F23C36AEF0036A78B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2982BE6623C36AEC0036A78B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2982BE6723C36AEC0036A78B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2982BE6B23C36AEF0036A78B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2982BE6C23C36AEF0036A78B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2982BE8523C36AEF0036A78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2982BE8623C36AEF0036A78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2982BE8823C36AEF0036A78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2ND2U87N3;
+				INFOPLIST_FILE = "Cara Ou Coroa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brenner.Cara-Ou-Coroa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2982BE8923C36AEF0036A78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2ND2U87N3;
+				INFOPLIST_FILE = "Cara Ou Coroa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brenner.Cara-Ou-Coroa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2982BE8B23C36AEF0036A78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2ND2U87N3;
+				INFOPLIST_FILE = "Cara Ou CoroaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brenner.Cara-Ou-CoroaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cara Ou Coroa.app/Cara Ou Coroa";
+			};
+			name = Debug;
+		};
+		2982BE8C23C36AEF0036A78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2ND2U87N3;
+				INFOPLIST_FILE = "Cara Ou CoroaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brenner.Cara-Ou-CoroaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cara Ou Coroa.app/Cara Ou Coroa";
+			};
+			name = Release;
+		};
+		2982BE8E23C36AEF0036A78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2ND2U87N3;
+				INFOPLIST_FILE = "Cara Ou CoroaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brenner.Cara-Ou-CoroaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cara Ou Coroa";
+			};
+			name = Debug;
+		};
+		2982BE8F23C36AEF0036A78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2ND2U87N3;
+				INFOPLIST_FILE = "Cara Ou CoroaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brenner.Cara-Ou-CoroaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cara Ou Coroa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2982BE5823C36AEC0036A78B /* Build configuration list for PBXProject "Cara Ou Coroa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2982BE8523C36AEF0036A78B /* Debug */,
+				2982BE8623C36AEF0036A78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2982BE8723C36AEF0036A78B /* Build configuration list for PBXNativeTarget "Cara Ou Coroa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2982BE8823C36AEF0036A78B /* Debug */,
+				2982BE8923C36AEF0036A78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2982BE8A23C36AEF0036A78B /* Build configuration list for PBXNativeTarget "Cara Ou CoroaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2982BE8B23C36AEF0036A78B /* Debug */,
+				2982BE8C23C36AEF0036A78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2982BE8D23C36AEF0036A78B /* Build configuration list for PBXNativeTarget "Cara Ou CoroaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2982BE8E23C36AEF0036A78B /* Debug */,
+				2982BE8F23C36AEF0036A78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2982BE5523C36AEC0036A78B /* Project object */;
+}
