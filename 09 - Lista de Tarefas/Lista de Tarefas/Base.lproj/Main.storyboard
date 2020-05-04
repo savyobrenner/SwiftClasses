@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Gv-p0-rRK">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Lista de Tarefas-->
+        <scene sceneID="3Oj-nA-ZCW">
+            <objects>
+                <tableViewController id="BHX-xU-cJ8" customClass="TableViewController" customModule="Lista_de_Tarefas" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="gtL-Ki-58G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celulaReuso" id="GEF-7Z-YMh">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GEF-7Z-YMh" id="Nhr-GI-D7E">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="BHX-xU-cJ8" id="4bR-oq-ITe"/>
+                            <outlet property="delegate" destination="BHX-xU-cJ8" id="cju-Cl-hBl"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Lista de Tarefas" id="NID-eK-vqZ">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="8gz-2b-SY9">
+                            <color key="tintColor" red="0.94914132360000003" green="0.97669178249999999" blue="0.96078330280000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <segue destination="awN-5u-slp" kind="show" identifier="criarNotas" id="GNP-cA-xkB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zlf-tY-Zyn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1818.840579710145" y="120.65217391304348"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TH6-ca-SWt">
+            <objects>
+                <viewController id="awN-5u-slp" customClass="ViewController" customModule="Lista_de_Tarefas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wVJ-CY-qhJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite a tarefa aqui" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SPz-n2-oxh">
+                                <rect key="frame" x="20" y="98" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adicionar nova tarefa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kmi-fd-hXA">
+                                <rect key="frame" x="20" y="69" width="162" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rvs-ey-34X">
+                                <rect key="frame" x="175" y="152" width="65" height="30"/>
+                                <state key="normal" title="Adicionar"/>
+                                <connections>
+                                    <action selector="adicionarTarefa:" destination="awN-5u-slp" eventType="touchUpInside" id="8Mi-ER-His"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Kmi-fd-hXA" firstAttribute="top" secondItem="tEm-M3-eHu" secondAttribute="top" constant="25" id="0jq-9i-8RU"/>
+                            <constraint firstItem="Rvs-ey-34X" firstAttribute="top" secondItem="SPz-n2-oxh" secondAttribute="bottom" constant="20" id="3gv-Z3-xYd"/>
+                            <constraint firstItem="Kmi-fd-hXA" firstAttribute="leading" secondItem="tEm-M3-eHu" secondAttribute="leading" constant="20" id="FBU-0J-G6N"/>
+                            <constraint firstItem="Rvs-ey-34X" firstAttribute="leading" secondItem="tEm-M3-eHu" secondAttribute="leading" constant="175" id="JHO-lf-4Wn"/>
+                            <constraint firstItem="tEm-M3-eHu" firstAttribute="trailing" secondItem="Rvs-ey-34X" secondAttribute="trailing" constant="174" id="WrO-tf-e5G"/>
+                            <constraint firstItem="SPz-n2-oxh" firstAttribute="top" secondItem="Kmi-fd-hXA" secondAttribute="bottom" constant="8" id="cjI-Ue-QXI"/>
+                            <constraint firstItem="SPz-n2-oxh" firstAttribute="leading" secondItem="tEm-M3-eHu" secondAttribute="leading" constant="20" id="eiu-37-P3a"/>
+                            <constraint firstItem="tEm-M3-eHu" firstAttribute="trailing" secondItem="SPz-n2-oxh" secondAttribute="trailing" constant="20" id="jVd-5L-Gp7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tEm-M3-eHu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vw4-ud-Ba3"/>
+                    <connections>
+                        <outlet property="tarefaCampo" destination="SPz-n2-oxh" id="bvf-7B-xVh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5b3-Hw-yML" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2515.9420289855075" y="120.65217391304348"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wLR-g4-kmS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Gv-p0-rRK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aun-Tz-XZm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.94914132360000003" green="0.97669178249999999" blue="0.96078330280000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BHX-xU-cJ8" kind="relationship" relationship="rootViewController" id="q2U-1k-KMg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nxX-Tr-tJC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911.59420289855075" y="120.65217391304348"/>
+        </scene>
+    </scenes>
+</document>
