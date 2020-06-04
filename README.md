@@ -17,3 +17,4 @@ Projetos desenvolvidos durante a aulas de SWIFT.
 - 14 - Loteria: Projeto que simula um sorteio de números da loteria, com uma adição de um 'Guru' que faz uma recomendação aleátoria se deve ou não apostar naqueles números.
 - 15 - SuperSenha: Projeto que cria uma lista de 'super senhas' que atinge requisitos escolhidos pelo próprio usuário.
 - 16 - SwiftQuiz: Projeto que é um quiz sobre alguns conhecimentos sobre a linguagem de programação Swift.
+- 17 - Pensamentos: Projeto é sobre frases de famosos, na construçao dele foi utilizado conceitos sobre Bundle e JSON.
