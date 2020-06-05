@@ -18,3 +18,4 @@ Projetos desenvolvidos durante a aulas de SWIFT.
 - 15 - SuperSenha: Projeto que cria uma lista de 'super senhas' que atinge requisitos escolhidos pelo próprio usuário.
 - 16 - SwiftQuiz: Projeto que é um quiz sobre alguns conhecimentos sobre a linguagem de programação Swift.
 - 17 - Pensamentos: Projeto é sobre frases de famosos, na construçao dele foi utilizado conceitos sobre Bundle e JSON.
+- 18 - Campeões: Projeto que lista todas as copas do mundo, o vencedor, e histórico dele. App feito explorando tableView e JSON.
